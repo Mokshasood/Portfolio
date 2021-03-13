@@ -1,0 +1,94 @@
+{% extends 'mypf/base.html' %}
+
+{% block content %}
+	<header class="masthead text-white text-center">
+	  <div class="container">
+		<img class="img-fluid mb-5 d-block mx-auto" src="static/mypf/img/profile.jpg" width="150" height="150" alt="my image">
+		<h1 class="text-uppercase mb-0">Moksha Sood</h1>
+		<hr class="star-light">
+		<h2 class="font-weight-light mb-0">Machine Learning - Web Development </h2>
+	  </div>
+	</header>
+
+	<section class="portfolio margin" id="portfolio">
+        <div class="container">
+            <h2 class="text-center text-uppercase text-white mb-0">Projects</h2>
+            <hr class="star-light mb-5 text-white">
+			<div class="row">
+			  <div class="col-sm-6">
+				<div class="card">
+				  <div class="card-body">
+					<h5 class="card-title">Twitter Data sentiment analysis</h5>
+					<p class="card-text">The project aims to classify users’ tweets into positive and negative tweets using bag of words and TF-IDF techniques with 95% validation accuracy.</p>
+					<a href="https://github.com/Mokshasood/Sentiment_analysis" class="btn btn-primary">See Project </a>
+				  </div>
+				</div>
+			  </div>
+			  <div class="col-sm-6">
+				<div class="card">
+				  <div class="card-body">
+					<h5 class="card-title">Human Activity Recognition</h5>
+					<p class="card-text">The project aimed to identify twelve types of human activities based on data 
+collected from wearable sensors and achieved an accuracy of 98%.</p>
+					<a href="https://github.com/Mokshasood/Human-Activity-Recognition-ML" class="btn btn-primary">See Project </a>
+				  </div>
+				</div>
+			  </div>
+			</div>
+			<div class="margin"></div>
+			<div class="row">
+			  <div class="col-sm-6">
+				<div class="card">
+				  <div class="card-body">
+					<h5 class="card-title">Smart Parking System</h5>
+					<p class="card-text">A parking system that gives information about vacant and occupied parking slots via mobile application using NodeMCU ESP8266 and firebase as database.</p>
+					<a href="https://github.com/Mokshasood/Smart-Parking-System-IOT" class="btn btn-primary">See Project </a>
+				  </div>
+				</div>
+			  </div>
+			  <div class="col-sm-6">
+				<div class="card">
+				  <div class="card-body">
+					<h5 class="card-title">Classification of charged particles into gamma and hadronic rays</h5>
+					<p class="card-text">Aproject to implement logistic regression and neural network 
+from scratch on MAGIC telescope dataset and obtained 77% test accuracy.</p>
+					<a href="https://github.com/Mokshasood/Drishti_mini_project" class="btn btn-primary">See Project</a>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		</div>
+	</section>
+	<br>
+	<br>
+	<br>
+	<section class="portfolio margin" id="portfolio">
+        <div class="container">
+            <h2 class="text-center text-uppercase text-white mb-0">Experience</h2>
+            <hr class="star-light mb-5 text-white">
+			<div class="row">
+			  <div class="col-sm-6">
+				<div class="card">
+				  <div class="card-body">
+					<h5 class="card-title">Data Science Intern, Zujo</h5>
+					<p class="card-text"> Duration: Dec 2019 - Jan 2020</p>
+					<p class="card-text"> Completed tasks of implementing convolutional neural networks on various datasets and computer vision tasks to understand their applications in industries under the guidance of Mr. Arjun Kava. </p>
+				  </div>
+				</div>
+			  </div>
+			  <div class="col-sm-6">
+				<div class="card">
+				  <div class="card-body">
+					<h5 class="card-title">Co head at CEV, NIT Surat</h5>
+					<p class="card-text"> Duration: May 2020 - Present </p>
+					<p class="card-text"> CEV is a prestigious techno-mangerial student chapter at NIT,Surat. It is a group of like minded people which regularly conducts technical talks and discussions.</p>
+				  </div>
+				</div>
+			  </div>
+			</div>
+			
+	</section>
+
+	
+
+{% endblock %}
